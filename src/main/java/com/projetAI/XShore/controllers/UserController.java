@@ -13,7 +13,7 @@ import java.util.List;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
-@RequestMapping({"/users"})
+@RequestMapping({"/user_table"})
 @EnableAspectJAutoProxy(proxyTargetClass = false)
 public class UserController {
 	
