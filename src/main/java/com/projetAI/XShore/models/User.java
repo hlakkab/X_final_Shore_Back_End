@@ -12,7 +12,7 @@ import static javax.persistence.FetchType.EAGER;
 
 @EnableAspectJAutoProxy(proxyTargetClass = false)
 @Entity
-@Table(name = "user")
+@Table(name = "user_table")
 public class User {
 
     @Id
